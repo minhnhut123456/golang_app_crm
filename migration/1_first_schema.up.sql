@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `leads` (
+  `id` BIGINT(20) NOT NULL,
+  `name` VARCHAR(255) NOT NULL,
+  `company` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
